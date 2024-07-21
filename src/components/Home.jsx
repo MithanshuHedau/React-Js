@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className="text-white max-sm:text-2xl max-sm:mt-[30px] max-sm:py-[20px] text-4xl font-mono">
           <TypeAnimation
             sequence={[
-              'TECHYSTAR',
+              'TECHYSTARS',
               2000,
               'We Archads',
               2000,
