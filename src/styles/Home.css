@@ -1,0 +1,40 @@
+#maindiv {
+  position: relative;
+}
+
+.background-blur {
+  background-image: url("../assets/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 105px;
+  border-bottom-left-radius: 105px;
+  filter: blur(3px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#mm{
+  border-bottom-right-radius: 20px;
+}
+
+main {
+  z-index: 10;
+  position: relative;
+}
+/* .home2{
+  height: 100vh;
+  width: 100%;
+  
+} */
+#image{
+  animation: imgup 0.7s linear infinite alternate;
+}
+
+@keyframes imgup {
+  to{
+    transform: translateY(-12px);
+  }
+}
